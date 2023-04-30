@@ -9,6 +9,8 @@ public class Main {
 
         System.out.println(myCoach.getDailyWorkout());
         System.out.println(myCoach.getDailyFortune());
+        System.out.println(myCoach.getEmailAddress());
+        System.out.println(myCoach.getTeam());
         context.close();
 
     }

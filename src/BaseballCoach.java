@@ -15,4 +15,14 @@ public class BaseballCoach implements Coach {
     public String getDailyFortune() {
         return fortuneService.getFortune();
     }
+
+    @Override
+    public String getEmailAddress() {
+        return null;
+    }
+
+    @Override
+    public String getTeam() {
+        return null;
+    }
 }

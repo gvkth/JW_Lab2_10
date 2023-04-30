@@ -9,4 +9,16 @@ public class TrackCoach implements Coach {
     public String getDailyFortune() {
         return "TrackCoach.getDailyFortune-...";
     }
+
+
+
+    @Override
+    public String getEmailAddress() {
+        return null;
+    }
+
+    @Override
+    public String getTeam() {
+        return null;
+    }
 }
